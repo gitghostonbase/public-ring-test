@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "name": "frontend-frameworks-demo",
+  "context": "8aada0576b0460a8de4105049de9325c25efe69c7e9eba7f78f393e2714175fe",
+  "members": [
+    {
+      "github": "self",
+      "publicKey": "02b74c7c7be03c1e8ffcfa13ae1d8c3930c463995d77d5db1d3a7d9ba5cedb504c",
+      "source": "local",
+      "fetchedAt": 1779473885533
+    },
+    {
+      "github": "sindresorhus",
+      "publicKey": "026f633a7949ddfe42c49aba2da66ee95e65205043eb487594c3ee1cbcd8b1e8a4",
+      "source": "github",
+      "fetchedAt": 1779473886027
+    },
+    {
+      "github": "yyx990803",
+      "publicKey": "0299aca8706509e20812537c13e1b50da022c18d460ceb1cb09e7f27ad7536c5be",
+      "source": "github",
+      "fetchedAt": 1779473886513
+    },
+    {
+      "github": "mojombo",
+      "publicKey": "0315dfde14a17d171f52b5d7eaa7da03f356b379580c3e10a41108f600b5bdfaa9",
+      "source": "github",
+      "fetchedAt": 1779473886979
+    }
+  ],
+  "createdAt": 1779473885387
+}
