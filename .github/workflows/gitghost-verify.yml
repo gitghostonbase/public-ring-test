@@ -1,0 +1,21 @@
+name: gitghost verify
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run gitghost verify
+        uses: ./.github/gitghost-action
+        with:
+          github-token: ${{ github.token }}
