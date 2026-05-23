@@ -17,3 +17,5 @@ jobs:
 
       - name: Run gitghost verify
         uses: ./.github/gitghost-action
+        with:
+          github-token: ${{ github.token }}
