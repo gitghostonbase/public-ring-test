@@ -12,7 +12,7 @@ inputs:
     required: false
     default: 'https://gitghost.org/api/verify'
   github-token:
-    description: 'Token used to read PR commits and post the sticky comment. Defaults to ${{ github.token }} resolved by the workflow.'
+    description: 'Token used to read PR commits and post the sticky comment. Pass github.token from the workflow.'
     required: false
   fail-on-invalid:
     description: 'Fail the action when at least one ghost commit fails verification. Default: true.'
